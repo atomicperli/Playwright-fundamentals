@@ -1,0 +1,33 @@
+<grand-parent>
+    <parent>
+        <son>
+        <son>
+        <son>
+    <parent>
+    <parent>
+        <son>
+        <son>
+        <son>
+    <parent>
+    <parent>
+        <son>
+        <son>
+        <son>
+    <parent>
+
+<grand-parent>
+
+
+1. Absolute Xpath
+2. Relative Xpath 
+
+
+Writing everything from root element is called Absolute Xpath - (/grand-parent/parent/son)
+Directly accessing the element that we require is called Relative Xpath - //son
+
+there are 2 components
+
+1. tag
+2. attribute
+
+//tagname[@attribute='value']
