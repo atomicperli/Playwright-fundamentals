@@ -27,8 +27,8 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
    
-    video: 'on',
-    screenshot: 'on',
+    video: 'off',
+    screenshot: 'off',
     trace: 'on',
     headless: false,
     actionTimeout: 5000,
@@ -46,7 +46,7 @@ export default defineConfig({
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      use: { ...devices['Desktop Chrome']}
     },
 
     // {
