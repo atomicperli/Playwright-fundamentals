@@ -6,7 +6,7 @@
 
 import {test, expect} from '@playwright/test'
 
-test.only('Timeouts Explanation', async ({page}) => {
+test('Timeouts Explanation', async ({page}) => {
 
     // test timeout
         test.setTimeout(15000)

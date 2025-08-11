@@ -27,7 +27,7 @@ test("sauce labs", async ({ page }) => {
   console.log(numberOfProductsAdded)
   console.log(await removeButtons.count())
   expect(await removeButtons.count()).toBe(numberOfProductsAdded)
-  await page.pause()
+  
   // await page.goto('https://www.saucedemo.com/');
   //   await page.getByPlaceholder('Username').fill('standard_user');
   //   await page.getByPlaceholder('Password').fill('secret_sauce');

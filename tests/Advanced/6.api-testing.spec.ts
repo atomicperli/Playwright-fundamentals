@@ -20,7 +20,7 @@ import { test, expect } from "@playwright/test";
 
 const baseURL = "https://jsonplaceholder.typicode.com";
 
-test.only("GET - Fetch a post", async ({ request }) => { 
+test("GET - Fetch a post", async ({ request }) => { 
   const response = await request.get(`https://reqres.in/api/users`, {
    params: {
       page: 2

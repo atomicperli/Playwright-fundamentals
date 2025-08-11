@@ -8,5 +8,5 @@ test("sauce labs", async ({ page }) => {
   // await loginButton.screenshot({path: './screenshots/LoginButton.png'})
   // await page.getByRole("button", { name: "Login" }).click();
   // await page.screenshot({path: './screenshots/afterLoggingIn.png', fullPage: true})
-  await page.pause()
+  
 })

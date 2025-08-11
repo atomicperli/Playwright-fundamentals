@@ -32,7 +32,7 @@ test('domContentLoaded Explanation', async({page}) => {
     console.log(`Operation took ${executionTime} ms`);
 })
 
-test.only('NetworkIdle Explanation', async({page}) => {
+test('NetworkIdle Explanation', async({page}) => {
     test.setTimeout(60000)
     const startTime = Date.now()
     await page.goto("https://rahulshettyacademy.com/", {waitUntil: 'networkidle'})

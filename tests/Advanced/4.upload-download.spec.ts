@@ -10,7 +10,7 @@ test("Upload Explanation", async ({ page }) => {
   await expect(page.locator('#row-0').locator('#cell-4-undefined', {hasText: '500'})).toBeVisible()
 });
 
-test.only("Download Explanation", async ({ page }) => {
+test("Download Explanation", async ({ page }) => {
   await page.goto(
     "https://rahulshettyacademy.com/upload-download-test/index.html"
   );

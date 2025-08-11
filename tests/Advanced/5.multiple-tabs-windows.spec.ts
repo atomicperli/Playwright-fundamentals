@@ -15,7 +15,7 @@ test("Multiple tabs with known behavior Explanation", async ({ browser }) => {
 });
 
 
-test.only("Multiple tabs with unknown behavior Explanation", async ({ browser }) => {
+test("Multiple tabs with unknown behavior Explanation", async ({ browser }) => {
     
     // Open vscode terminal and type npx serve . and press enter, you can access the website on your browser.
 

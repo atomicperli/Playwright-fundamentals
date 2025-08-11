@@ -26,7 +26,7 @@ test("Test for ToHaveText", async ({ page }) => {
   await expect(productsTitle).toHaveText('Products')
 });
 
-test.only("Test for ToContainText", async ({ page }) => {
+test("Test for ToContainText", async ({ page }) => {
   await page.goto("https://saucedemo.com/");
   await page.getByPlaceholder("Username").fill("standard_user");
   await page.getByPlaceholder("Password").fill("secret_sauce");

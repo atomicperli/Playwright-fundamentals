@@ -73,5 +73,5 @@ test("Explaining route concepts", async ({ page }) => {
   });
   await page.getByRole("button", { name: "Add To cart" }).first().click();
   await page.getByRole("button", { name: "Cart" }).first().click();
-  await page.pause()
+  
 });

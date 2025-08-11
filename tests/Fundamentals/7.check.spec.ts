@@ -8,7 +8,7 @@ test('Checkboxes', async ({page}) => {
     await textBox.uncheck()
     await textBox.uncheck()
     await expect(textBox).not.toBeChecked()
-    await page.pause()
+    
 })  
 
 

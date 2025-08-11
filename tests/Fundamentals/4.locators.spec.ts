@@ -64,5 +64,5 @@ test('Explaining Locators', async({page}) => {
         // await userNameField2.fill("standard_user")
        
 
-    await page.pause()
+    
 })

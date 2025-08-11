@@ -5,5 +5,5 @@ test('Drag and Drop', async ({page}) => {
     const item1 = page.getByText("Item 1")
     const item2 = page.getByText("Drop items here")
     await item1.dragTo(item2)
-    await page.pause()
+    
 })  

@@ -26,6 +26,6 @@ test("Access Inventory page without logging", async ({ browser }) => {
   });
   let page = await context.newPage();
   await page.goto("https://rahulshettyacademy.com/client/#/dashboard/myorders");
-  await page.pause();
+  ;
   await page.getByRole("button", { name: "Orders" }).first().click();
 });
