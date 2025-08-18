@@ -38,7 +38,7 @@ test('Basic performance metrics', async ({ page }) => {
 
  */   
 
- test.only('Basic accessibility check', async ({ page }) => {
+ test('Basic accessibility check', async ({ page }) => {
   await page.goto('https://saucedemo.com');
   const accessibilityScanResults = await new AxeBuilder({ page }).analyze();
   console.log('Accessibility issues:', accessibilityScanResults.violations);

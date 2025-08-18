@@ -12,7 +12,7 @@ test("Handle Basic Auth popup", async ({ browser }) => {
   await page.pause()
 });
 
-test.only("Handle Basic Auth popup2", async ({ page }) => {
+test("Handle Basic Auth popup2", async ({ page }) => {
   await page.goto("https://admin:admin@the-internet.herokuapp.com/basic_auth");
   await page.pause()
 });

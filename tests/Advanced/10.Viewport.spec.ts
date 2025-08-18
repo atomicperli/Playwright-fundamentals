@@ -15,7 +15,7 @@ test("Multiple tabs with known behavior Explanation", async ({ page }) => {
 });
 
 
-test.only("Multiple tabs with known behavior Explanation2", async ({ browser }) => {
+test("Multiple tabs with known behavior Explanation2", async ({ browser }) => {
     let context = await browser.newContext({viewport: {width: 330, height: 800}})
     let page = await context.newPage()
     await page.goto('https://www.saucedemo.com/')
