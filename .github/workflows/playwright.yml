@@ -10,7 +10,7 @@ on:
       test_suite:
         description: "Test suite name (leave blank to run all)"
         required: false
-        default: ""
+        default: "@regression"
 
 jobs:
   test:
